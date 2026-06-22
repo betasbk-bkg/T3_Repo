@@ -1,2 +1,0 @@
-model,features,r2_in_sample,mae_in_sample,r2_loocv,mae_loocv
-relief_plus_cost_plus_delay_traj,"energy_relief, osc_change_pct, edot_change_pct, tail_delta, delay, tr, traj",0.8082577841103756,0.08946855525769049,0.7269799645789468,0.10405275702172768
