@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software/data package, please cite the Zenodo record and the associated manuscript."
+title: "Data and code for: Projected anti-aggregate stabilization and mistiming-cost boundaries in latency-affected quantized collective control"
+authors:
+  - family-names: Song
+    given-names: Bong-Keun
+    orcid: "https://orcid.org/0009-0008-3120-8126"
+version: "v1.0.1"
+doi: "TBD_AFTER_ZENODO_UPLOAD"
+date-released: "2026-06-22"
+repository-code: "TBD_AFTER_ZENODO_UPLOAD"
+keywords:
+  - nonlinear simulation
+  - collective control
+  - feedback latency
+  - quantized voting
+  - vector aggregation
+  - mechanism validation
