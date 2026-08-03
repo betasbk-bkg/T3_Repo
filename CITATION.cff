@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this package, cite the associated manuscript and the final archived repository record."
+title: "Data and code for: Local relief and hybrid obstruction in delayed anti-aggregate quantized collective-control systems"
+authors:
+  - family-names: Song
+    given-names: Bongkeun
+    orcid: "https://orcid.org/0009-0008-3120-8126"
+    affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany"
+version: "v1.0.12"
+date-released: "2026-08-03"
+license: "MIT"
+keywords:
+  - delayed collective control
+  - quantized control
+  - hybrid systems
+  - simulation audit
+  - local-to-global obstruction

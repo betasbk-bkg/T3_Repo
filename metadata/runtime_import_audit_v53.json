@@ -1,0 +1,32 @@
+{
+  "frozen_engine_equivalence_final_gate_analysis": {
+    "ok": true,
+    "ROOT": ".",
+    "OUT": "data/frozen_engine_equivalence",
+    "CORE": "code/fixed_engine_core/core"
+  },
+  "crn_pairing_interaction_repair": {
+    "ok": true,
+    "ROOT": ".",
+    "OUT": "data/final_structural_audit",
+    "CORE": ""
+  },
+  "stream_separated_crn_gate": {
+    "ok": true,
+    "ROOT": ".",
+    "OUT": "data/final_structural_audit",
+    "CORE": ""
+  },
+  "base_condition_cluster_reanalysis": {
+    "ok": true,
+    "ROOT": ".",
+    "OUT": "data/base_condition_cluster_reanalysis",
+    "CORE": ""
+  },
+  "recompute_table17_pairwise_q_contrasts": {
+    "ok": true,
+    "ROOT": ".",
+    "OUT": "data/final_structural_audit/table17_pairwise_q_contrasts_v41.csv",
+    "CORE": ""
+  }
+}
