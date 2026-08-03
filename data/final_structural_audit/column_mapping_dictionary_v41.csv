@@ -1,0 +1,10 @@
+manuscript_label,source_file,source_column,notes
+mean local relief,data/reduced_order_falsification/cell_level_predictions.csv,energy_relief,Original-grid descriptive summary; not a theorem constant.
+mean vote-jump chord2 per vote opportunity,data/final_structural_audit/sscrn_per_sim_metrics.csv,vote_switch_chord2_mean,Unconditional mean over vote opportunities; zero included when no vote-bin switch occurs.
+aggregate jump chord2,data/final_structural_audit/sscrn_per_sim_metrics.csv,agg_cell_jump_chord2_mean,Mean aggregate quantizer-cell jump burden.
+path/vote co-occurrence,data/final_structural_audit/sscrn_per_sim_metrics.csv,vote_path_coincident_rate,Rate at which path and vote/aggregate events co-occur in a vote window.
+positive intervention error-squared increment,data/final_structural_audit/sscrn_per_sim_metrics.csv,positive_err2_increment_t3,Mean positive part of the T3 next-vote squared-error increment.
+mean counterfactual event cost,data/final_structural_audit/sscrn_per_sim_metrics.csv and sscrn_vote_events_with_counterfactual.csv,counterfactual_event_cost_sscrn,"Delta e2_T3 minus Delta e2_honest under stream-separated schedules; association metric, not causal validation."
+mean positive-part counterfactual cost,data/final_structural_audit/sscrn_per_sim_metrics.csv,positive_counterfactual_event_cost_sscrn,"Mean max(counterfactual event cost, 0)."
+linear q-coarseness model,data/base_condition_cluster_reanalysis/base_condition_cluster_adjusted_model.csv,estimate; ci95_low; ci95_high,OLS on non-missing event-cost rows with base-condition cluster bootstrap.
+categorical q sensitivity,data/final_structural_audit/table19_categorical_q_sensitivity_v41.csv,estimate; ci95_low; ci95_high,q4-reference categorical model copied from the locked table-supporting output.

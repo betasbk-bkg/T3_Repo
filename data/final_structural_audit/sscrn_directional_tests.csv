@@ -1,0 +1,7 @@
+test,expected,spearman,fine_16_value,coarse_4_value,coarse_minus_fine,pass
+q_coarseness_to_vote_switch_chord2_mean,positive,0.5,0.43481693210962147,0.654825,0.22000806789037852,True
+q_coarseness_to_agg_cell_jump_chord2_mean,positive,0.5,0.6074361458158082,0.6803125,0.0728763541841918,True
+q_coarseness_to_vote_path_coincident_rate,positive,-0.5,0.09531250000000001,0.09515625,-0.00015625000000001055,False
+q_coarseness_to_positive_err2_increment_t3,positive,1.0,0.3602534898855445,0.6122775085520501,0.2520240186665056,True
+q_coarseness_to_counterfactual_event_cost_sscrn,positive,-1.0,0.007383283472064931,0.0022600269719581256,-0.005123256500106805,False
+q_coarseness_to_positive_counterfactual_event_cost_sscrn,positive,1.0,0.5284092249212331,0.8446431779663846,0.31623395304515145,True

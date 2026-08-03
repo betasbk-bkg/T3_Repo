@@ -1,0 +1,4 @@
+row_label,sign_accuracy,balanced_accuracy,false_benefit,false_harm,r2,mae,source_basis
+Original fitted relief-plus-cost balance model,0.906250,0.750000,not applicable,not applicable,0.607898,0.138732,data/reduced_order_falsification/theory_model_comparison.csv model C_relief_cost_balance
+Heldout3 locked baseline,0.854167,0.691046,11,3,0.613093,0.147674,data/reduced_order_falsification/freeze_sources/heldout3_model_summary.md locked E baseline reference
+Heldout3 frozen correction,0.854167,0.691046,11,3,0.611735,0.147803,data/reduced_order_falsification/freeze_sources/heldout3_model_summary.md primary frozen Option A metrics

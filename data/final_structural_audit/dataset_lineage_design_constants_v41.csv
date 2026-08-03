@@ -1,0 +1,4 @@
+dataset,trajectories,minority_fractions,delays_frames,replicates,rows_or_cells,role
+Original 96-cell grid,circle; square; zigzag; lemniscate,0.20; 0.30; 0.40,0; 8; 18; 26; 34; 44; 56; 68,MC=50,96 cells,initial benefit/harm map and reduced-order model fitting
+Heldout3 96-cell grid,circle; lemniscate; square; zigzag,0.225; 0.325; 0.425,1; 5; 9; 16; 24; 36; 52; 66,MC=50,96 cells,frozen low-dimensional closure stress test
+Final structural audit,circle; square; zigzag; lemniscate,0.25; 0.35,12; 34,MC=8,"128 base conditions; 384 q-paired condition rows; 768 simulations; 38,400 T3 event rows; 38,016 non-missing cost rows",q/vote/path event-cost association inference
