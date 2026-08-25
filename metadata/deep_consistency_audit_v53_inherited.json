@@ -1,0 +1,86 @@
+{
+  "figure_links": [
+    {
+      "link": "../figures/manuscript_png/Figure_1_system_structure.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_2_original_grid_benefit_harm_map.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_3_local_relief_vs_global_rmse_sign.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_4_local_relief_geometry.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_5_hybrid_obstruction_map.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_6_quantizer_tradeoff_ci.png",
+      "exists": true
+    },
+    {
+      "link": "../figures/manuscript_png/Figure_7_q_categorical_sensitivity.png",
+      "exists": true
+    }
+  ],
+  "table10": [
+    {
+      "row_label": "Original fitted relief-plus-cost balance model",
+      "row_present": true,
+      "values_present": {
+        "sign_accuracy": true,
+        "balanced_accuracy": true,
+        "false_benefit": true,
+        "false_harm": true,
+        "r2": true,
+        "mae": true
+      }
+    },
+    {
+      "row_label": "Heldout3 locked baseline",
+      "row_present": true,
+      "values_present": {
+        "sign_accuracy": true,
+        "balanced_accuracy": true,
+        "false_benefit": true,
+        "false_harm": true,
+        "r2": true,
+        "mae": true
+      }
+    },
+    {
+      "row_label": "Heldout3 frozen correction",
+      "row_present": true,
+      "values_present": {
+        "sign_accuracy": true,
+        "balanced_accuracy": true,
+        "false_benefit": true,
+        "false_harm": true,
+        "r2": true,
+        "mae": true
+      }
+    }
+  ],
+  "table17_missing": [],
+  "table18_missing": [],
+  "table19_missing": [],
+  "references": {
+    "doi_audit_rows": 53,
+    "reference_lines": 53,
+    "flagged_doi_rows": 0
+  },
+  "row_counts": {
+    "t3pub_frame_theorem_log": 3900,
+    "paired_honest_t3_divergence_log": 3900,
+    "boundary_switch_frame_log": 217,
+    "sscrn_vote_events": 38400,
+    "sscrn_per_sim": 384,
+    "development_calibration": 232
+  }
+}
