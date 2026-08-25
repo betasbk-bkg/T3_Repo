@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Data and code for: Local relief without global closure: hybrid obstruction channels in delayed quantized collective control",
+    "upload_type": "dataset",
+    "description": "Repository archive supporting the manuscript 'Local relief without global closure: hybrid obstruction channels in delayed quantized collective control'. Contains code, processed data, table-supporting files, final figure image files, and supplements for the fixed anti-aggregate minority-policy simulation (implementation label: T3) reported in the manuscript. See README.md for scope and layout, and LICENSE / LICENSE-DATA.md for licensing terms.",
+    "creators": [
+      {
+        "name": "Song, Bongkeun",
+        "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+        "orcid": "0009-0008-3120-8126"
+      }
+    ],
+    "keywords": [
+      "delayed collective control",
+      "quantized control",
+      "hybrid systems",
+      "simulation audit",
+      "local-to-global obstruction",
+      "crowd-sourced continuous control"
+    ],
+    "license": "CC-BY-4.0",
+    "notes": "Code in code/ is separately licensed under MIT; see LICENSE. This Zenodo license field applies to the archive's dataset/documentation content as a whole per Zenodo's single-license-field convention.",
+    "related_identifiers": [
+      {
+        "identifier": "10.21203/rs.3.rs-9326125/v1",
+        "relation": "references",
+        "resource_type": "publication-preprint"
+      }
+    ],
+    "version": "v1.6.0",
+    "language": "eng",
+    "access_right": "open"
+  },
+  "field_notes": {
+    "related_identifiers.relation": "Uses 'references' rather than 'isSupplementTo'. This archive is not supplementary material to the cited preprint (10.21203/rs.3.rs-9326125/v1, 'Speed Over Strategy'); it is an independent manuscript's own data/code package that cites that preprint for modelling lineage only. An earlier draft of this field incorrectly used 'isSupplementTo', which would have registered this archive as subordinate to the preprint. Corrected here.",
+    "primary_manuscript_doi_or_identifier": "not yet assigned; add the journal DOI or preprint DOI for the T3main manuscript itself once available, as a second related_identifier with relation 'isSupplementTo' (this archive IS supplementary to that manuscript, unlike the Song 2026 preprint).",
+    "license_field": "Zenodo's deposit form takes one top-level license field. Because this archive is code+data mixed under two different licenses (MIT for code/, CC-BY-4.0 for everything else), the top-level Zenodo field is set to CC-BY-4.0 (matching the majority of the archive's content: data, figures, manuscript, supplements), and the MIT code exception is documented in README.md, LICENSE, and this file. Confirm this is the intended handling before upload; Zenodo does not support a per-file license split in the deposit metadata itself."
+  }
+}
