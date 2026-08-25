@@ -1,0 +1,89 @@
+{
+  "DBPI_status": "exploratory_only_not_in_primary_option_A",
+  "candidate_sse": [
+    {
+      "active_set": "RCOAI_only_CTPI_constrained_zero",
+      "beta_C": 0.0,
+      "beta_R": 0.0028583563044266803,
+      "sse": 7.775763909220903
+    },
+    {
+      "active_set": "CTPI_only_RCOAI_constrained_zero",
+      "beta_C": 0.0,
+      "beta_R": 0.0,
+      "sse": 7.777659395797935
+    },
+    {
+      "active_set": "both_constrained_zero",
+      "beta_C": 0.0,
+      "beta_R": 0.0,
+      "sse": 7.777659395797935
+    }
+  ],
+  "coefficients": {
+    "beta_C": 0.0,
+    "beta_R": 0.0028583563044266803
+  },
+  "constraint_rule": "fit no-intercept sign-constrained least squares; set sign-violating coefficients to zero by active-set constraint",
+  "expected_signs": {
+    "beta_C": "<= 0",
+    "beta_R": ">= 0"
+  },
+  "fit_active_set": "RCOAI_only_CTPI_constrained_zero",
+  "locked_E_reconstruction_for_original_96": {
+    "coefficients": {
+      "branch_ambiguity": 0.05417179053358451,
+      "corner_or_piecewise": 0.0043588976850724315,
+      "edot_change_pct": 0.0018291243806633044,
+      "frame_abs_relief": -0.12308682405171315,
+      "frame_energy_relief": 0.04456206884950254,
+      "osc_change_pct": -0.18759450097054736,
+      "tail_delta": -0.06635461143645786
+    },
+    "intercept": 0.2181460991537616,
+    "standardization_mean": {
+      "branch_ambiguity": 0.25,
+      "corner_or_piecewise": 0.5,
+      "edot_change_pct": 46.64626068513471,
+      "frame_abs_relief": 0.48331016023947465,
+      "frame_energy_relief": 0.565010977917671,
+      "osc_change_pct": -6.286705444643111,
+      "tail_delta": 0.010875165343915368
+    },
+    "standardization_std": {
+      "branch_ambiguity": 0.4330127018922193,
+      "corner_or_piecewise": 0.5,
+      "edot_change_pct": 169.85096603735073,
+      "frame_abs_relief": 0.32860232057486694,
+      "frame_energy_relief": 0.341498868362797,
+      "osc_change_pct": 33.085266445078894,
+      "tail_delta": 0.1231185887063208
+    }
+  },
+  "model_formula": "gap_hat_A = gap_hat_E_locked + beta_R * z_RCOAI + beta_C * z_CTPI",
+  "model_name": "v3_option_a_residual_correction",
+  "n_training_cells": 232,
+  "signs_preserved": true,
+  "standardization": {
+    "features": {
+      "CTPI": {
+        "column": "corner_turn_phase_index_mean",
+        "mean": 1.318387742696156,
+        "std": 2.0299832581624586
+      },
+      "RCOAI": {
+        "column": "relief_consistency_overshoot_availability_index_mean",
+        "mean": 0.28601648253028955,
+        "std": 0.4470596763218
+      }
+    },
+    "source": "v3 development set only"
+  },
+  "status": "frozen_before_heldout3",
+  "target_residual": "observed_gap - gap_hat_E_locked",
+  "training_datasets_used": [
+    "original_96",
+    "heldout1_56",
+    "heldout2_80"
+  ]
+}
