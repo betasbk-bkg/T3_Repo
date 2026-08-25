@@ -1,3 +1,0 @@
-model,label,sign_accuracy,balanced_accuracy,r2_loocv_or_score,mae_rmse_gap,false_benefit,false_harm,notes
-C_relief_cost_balance,Relief plus cost balance,0.90625,0.75,0.6078980949512564,0.1387322182655922,9,0,Archive-only cell-level evaluation combining local relief and mistiming/tail costs.
-E_topology_aware_hybrid,Relief-cost-topology hybrid,0.8958333333333334,0.7435897435897436,0.6251354345473948,0.1211666970105906,9,1,Archive-only cell-level evaluation with circle as baseline and two topology penalties.

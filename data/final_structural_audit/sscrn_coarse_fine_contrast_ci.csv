@@ -1,7 +1,0 @@
-contrast,metric,mean,ci95_low,ci95_high,n_clusters,fraction_positive
-q4_minus_q16_stream_separated_crn,vote_switch_chord2_mean,0.22000806789037852,0.13644302054375687,0.309936190197262,128,0.7109375
-q4_minus_q16_stream_separated_crn,agg_cell_jump_chord2_mean,0.07287635418419178,-0.03939428751470967,0.18047496568323665,128,0.5859375
-q4_minus_q16_stream_separated_crn,vote_path_coincident_rate,-0.00015625000000000057,-0.013908203125,0.014146484374999968,128,0.234375
-q4_minus_q16_stream_separated_crn,positive_err2_increment_t3,0.2520240186665056,0.20435234604951363,0.29988864586887004,128,0.75
-q4_minus_q16_stream_separated_crn,counterfactual_event_cost_sscrn,-0.0051232565001068054,-0.013042425048027462,0.0025327579764499956,128,0.53125
-q4_minus_q16_stream_separated_crn,positive_counterfactual_event_cost_sscrn,0.31623395304515145,0.256936317663452,0.37491265749638975,128,0.78125

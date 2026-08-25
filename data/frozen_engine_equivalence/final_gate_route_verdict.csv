@@ -1,2 +1,0 @@
-verdict,frozen_equivalence_pass,max_equivalence_abs_diff,directional_pass_count,directional_total,note
-FROZEN_ENGINE_FINAL_GATE_TECHNICALLY_STRENGTHENED,True,4.440892098500626e-16,4,5,not validation; not global RMSE closure
